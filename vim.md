@@ -70,3 +70,34 @@ Following command redirects the write to tee. % is the current file name
 :w! !sudo tee %
 ```
 
+### Split screen using VIM
+
+Split verically
+```
+Esc
+ctl + w followed by 'v'
+```
+
+Split horizontally
+```
+Esc
+ctlr + w followed by 's'
+```
+
+Navigate split screen
+```
+Esc
+ctlr + w followed by 'l'/'h'    # move right, left split screen
+ctlr + w followed by 'j'/'k'    # move up, down split screen
+```
+
+Resize split screen
+```
+Esc
+ctlr + w followed by Shift + >    # Increase width
+ctlr + w followed by shift + <    # Decrease width
+ctlr + w followed by shift + '+'  # Increase height
+cltr + w followed by shift + '-'  # Decrease height
+cltr + w followed by shift + '='  # Upper and lower work spaces are equal in size
+```
+
