@@ -17,6 +17,7 @@ git diff                                             # show uncommited changes
 git diff --cached                                    # show added changes
 git show --pretty="" --name-only <commitid>          # show files that are modified in given commit
 git show [<commitid>]                                # show changes in the latest commit or specified commit
+git branch --contains <commitid>                     # List branches that contains this commit id
 ```
 
 
